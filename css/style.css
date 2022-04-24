@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*tipografia*/
+
+.estilo-letra{
+    font-family: 'Amatic SC', cursive;
+}
+
+.estilo-letra2{
+    font-family: 'Bad Script', cursive;
+}
+
+.estilo-letra3{
+    font-family: 'Cookie', cursive;
+}
+
+.estilo-letra4{
+    font-family: 'Handlee', cursive;
+}
+
+.estilo-letra5{
+    font-family: 'Parisienne', cursive;
+}
+
+.estilo-letra6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.estilo-letra7{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/*distancias*/
+
+header img{
+    margin: 10px;
+    padding: 10px;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+header{
+    grid-area: header;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-image: url(../img/hojas1.jpg);
+    background-size: 89rem;
+    height: 150px;
+}
+
+.header__nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 2rem;
+}
+
+main{
+    grid-area: main;
+}
+
+.main{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(149, 209, 149);
+    line-height: 6rem;
+    padding-top: 2rem;
+}
+
+.main__h1{
+    font-size: 60px;
+    color: rgb(37, 85, 37);
+    text-shadow: 0.1em 0.1em rgb(132, 201, 132);
+}
+
+.main__p1{
+    font-size: 40px;
+    color: rgb(9, 36, 9);
+}
+
+.main__p2{
+    font-size: 20px;
+    color: rgb(9, 36, 9);
+}
+
+div{
+    grid-area: div;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: rgb(149, 209, 149);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.div__img{
+    width: 30%;
+}
+
+.div__div{
+    width: 410px;
+}
+
+.h2__div{
+    margin-bottom: 2rem;
+    font-size: 50px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    text-shadow: 0.05em 0.05em rgb(100, 112, 100);
+    color: rgb(46, 87, 46);
+}
+
+.p__div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+    padding: 1rem 3rem;
+    background-color: rgb(132, 204, 132);
+    height: 160px;
+    margin: 0;
+}
+
+.div__iconosu li{
+    list-style-type: none;
+}
+
+.div__iconos i{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.div__mapa{
+    width: 40%;
+}
+
+.div__iconos{
+    font-size: 16px;
+}
+
+/* HTML CONTACTO Y UBICACIONES */
+
+.main__contacto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    line-height: 3.5rem;
+    background-color: rgb(149, 209, 149);
+}
+
+.h2__main{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: rgb(62, 122, 62);
+}
+
+.div__iconoscontacto{
+    font-size: 19px;
+    color: black;
+}
+
+.h1__main{
+    font-size: 3rem;
+    color: rgb(62, 122, 62);
+    text-shadow: 0.1em 0.1em grey;
+}
+
+.p__main{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+.footer__contacto{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    background-color: rgb(132, 204, 132);
+    margin: 0;
+    gap: 15px;
+    height: 10rem;
+}
+
+.navul__main li{
+    list-style-type: none;
+}
+
+/* SERVICIOS PESTAÑAS HTML */
+
+.mainpestañas{
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    line-height: 2rem;
+    background-color: rgb(149, 209, 149);
+}
+
+.h1__mainpestañas{
+    font-size: 2.5rem;
+    color: rgb(62, 122, 62);
+    text-shadow: 0.1em 0.1em grey;
+}
+
+.links{
+    list-style-type: none;
+}
+
+.links2{
+    text-decoration: none;
+}
+
+.divp__footer{
+    padding-top: 150px;
+}
+
+html {
+    height: 100%;
+}
+
+.navul__precios{
+    list-style-type: none;
+}
+
+.img__lifting{
+    display: flex;
+    align-content: center;
+    gap: 8rem;
+    background-color: rgb(149, 209, 149);
+    padding-bottom: 20px;
+}
+
+.img__lifting1{
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+    padding-left: 300px;
+}
+
+.img__lifting2{
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+}
